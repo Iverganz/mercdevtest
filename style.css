@@ -1,0 +1,338 @@
+body {
+    background: url("img/background@2x.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/GothamPro.eot');
+    src: url('fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro.woff') format('woff'),
+    url('fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (orientation: portrait) /*and (max-device-width: 768px)*/
+{
+    div.Rectangle-3 {
+       width: 90vw;
+       height: 60.56vh;
+    }
+    img.W-Mercury-Development {
+        width: 56.88vw;
+        height: 7.04vh;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 50%);
+    }
+    input.Rectangle-4 {
+        width: 75vw;
+        height: 8.45vh;
+        font-size: 2.8vh;
+    }
+    input.Rectangle-7{
+        box-shadow:  0 1.25vw 5vh 0 rgba(237, 65, 89, 0.4);
+    }
+    input.Rectangle-7:Hover{
+        box-shadow:  0 1.25vw 6.25vh 0 rgba(237, 65, 89, 0.4);
+    }
+    input.Rectangle-7:Active {
+        box-shadow: 0 1.25vw 6.25vh 0 rgba(237, 65, 89, 0.4);
+    }
+    input.Rectangle-7[value] {
+        width: 45.31vw;
+        height: 8.45vh;
+        font-size: 2.4vh;
+    }
+    input.Rectangle-7[value]:Hover {
+        width: 45.31vw;
+        height: 8.45vh;
+        font-size: 2.4vh;
+    }
+    input.Rectangle-7[value]:Active {
+        width: 45.31vw;
+        height: 8.45vh;
+        font-size: 2.4vh;
+    }
+    p.Log-In{
+        width: 25.31vw;
+        height: 4.225vh;
+        font-size: 3.5vh;
+    }
+    img.Oval-2 {
+        width: 26.87vh;
+        height: 26.87vh;
+        border: solid 1px #979797;
+        border-radius: 13.43vh;
+        margin-top: 5.63vh;
+    }
+
+    div.Helena-Joseph{
+        margin-top: -4.22vh;
+        width: 42.5vw;
+    }
+    input.Rectangle-4-i{
+        width: 75vw;
+        height: 8.45vh;
+        font-size: 2.8vh;
+    }
+    div.Error {
+        width: 75vw;
+        height: 8.45vh;
+        font-size: 2.8vh;
+    }
+
+
+
+
+
+
+}
+
+#main {
+
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.W-Mercury-Development {
+    width: 16.4vw;
+    height: 6.39vh;
+    object-fit: contain;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 100%);
+}
+/*form*/
+.Rectangle-3 {
+    width: 31.25vw;
+    height: 37.8vh;
+    /*width: 288px;*/
+    /*height: 408px;*/
+    border-radius: 8px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*кнопка*/
+.Rectangle-7 {
+    width: 8.02vw;;
+    height: 4.44vh;
+    border-radius: 9.26vh;
+    box-shadow: 0 0.21vw 16px 0 rgba(237, 65, 89, 0.4);
+    background-color: #ed4159;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Rectangle-7:Hover {
+    width: 8.02vw;
+    height: 4.44vh;
+    border-radius: 9.26vh;
+    box-shadow: 0 0.31vw 1.85vh 0 rgba(237, 65, 89, 0.4);
+    background-color: #ffffff;
+}
+.Rectangle-7:Active {
+    width: 8.02vw;
+    height: 4.44vh;
+    border-radius: 9.26vh;
+    box-shadow: 0 0.1vw 0.93vh 0 rgba(237, 65, 89, 0.5);
+    background-color: #ffffff;
+}
+.Rectangle-7:Hover[value] {
+    width: 8.02vw;;
+    height: 4.44vh;;
+    font-family: Gotham ;
+    font-size: 1.29vh;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ed4159;
+}
+.Rectangle-7:active[value] {
+    width: 8.02vw;
+    height: 4.44vh;
+    font-family: Gotham;
+    font-size: 1.29vh;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ed4159;
+}
+.Rectangle-7[value] {
+    width: 8.02vw;
+    height: 4.44vh;
+    font-family: Gotham;
+    font-size: 1.29vh;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.Log-In {
+    width: 79px;
+    height: 3.7vh;
+    opacity: 0.8;
+    font-family: Gotham ;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #262626;
+    margin: 0;
+}
+/*поля*/
+.Rectangle-4 {
+    width: 26.25vw;
+    height: 4.45vh;
+    border-radius: 4px;
+    border: solid 1px rgba(151, 151, 151, 0.25);
+    background-color: #f1f1f1;
+    opacity: 0.4;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    padding-left: 16px;
+
+    margin-left: 6%;
+}
+.Rectangle-4[value]{
+    color: #262626;
+}
+.Rectangle-4[placeholder="E-mail"] {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+.Rectangle-4[placeholder="Password"] {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+/*error*/
+.Error {
+    width: 26.25vw;
+    height: 4.45vh;
+    border-radius: 4px;
+    background-color: rgba(237, 65, 89, 0.25);
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed4159;
+    padding-left: 16px;
+    padding-top: 0.5em;
+    margin-left: 6%;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+.Rectangle-4-i {
+    width: 26.25vw;
+    height: 4.45vh;
+    border-radius: 4px;
+    border: solid 1px #ed4159;
+    background-color: #f1f1f1;
+    opacity: 0.4;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed4159;
+    padding-left: 16px;
+    margin-left: 6%;
+
+}
+.Rectangle-4-i[value]{
+    color: #ed4159;
+}
+.Rectangle-4-i[placeholder="E-mail"] {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+/*success*/
+.Oval-2 {
+    width: 11.85vh;
+    height: 11.85vh;
+    border: solid 1px #979797;
+    border-radius: 5.92vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.Helena-Joseph {
+    width: 11.04vw;
+    height: 3.14vh;
+    opacity: 0.8;
+    font-family: Gotham;
+    font-size: 2.6vh;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #262626;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+/*.Rectangle-4[value] {*/
+    /*width: 26.25vw;*/
+    /*height: 48px;*/
+    /*border-radius: 4px;*/
+    /*border: solid 1px rgba(151, 151, 151, 0.25);*/
+    /*background-color: #f1f1f1;*/
+    /*opacity: 0.4;*/
+    /*font-family: Gotham;*/
+    /*font-size: 16px;*/
+    /*font-weight: 500;*/
+    /*font-style: normal;*/
+    /*font-stretch: normal;*/
+    /*line-height: normal;*/
+    /*letter-spacing: normal;*/
+    /*color: #262626;*/
+/*}*/
